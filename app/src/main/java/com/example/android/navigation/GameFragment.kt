@@ -43,6 +43,10 @@ class GameFragment : Fragment() {
                     answers = listOf("15", "10", "20", "Ei ole panttia")),
             Question(text = "Mikä on toiseksi runsain ainesosa vaaleassa lager 4.3 % oluessa?",
                     answers = listOf("ohramallas", "ohra", "humala", "vesi")),
+            Question(text = "Mistä kaupasta voit ostaa vaaleaa lageria 4.3%?",
+                answers = listOf("S-market", "K-market", "Lidl", "Verkkokauppa")),
+            Question(text = "Mikä on vaalean lagerin 4.3 % litrahinta (e/L)?",
+                answers = listOf("2.55", "2.30", "3.10", "2.85"))
     )
 
 

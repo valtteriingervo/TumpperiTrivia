@@ -25,6 +25,7 @@
     <string name="rules_text">Valitse vastaus neljästä annetusta vastausvaihtoehdosta. Jos valitset oikein, siirryt seuraavaan kysymykseen.\n\nJos vastaat väärin, pelisi loppuu ja voit yrittää sen jälkeen uudestaan! Voit palata aloitusruudulle kesken pelit painamalla androidin Back -nappäintä, ja myös tämä lopettaa pelisi.</string>
     <string name="rules">Säännöt</string>
     <string name="about">Tietoa sovelluksesta</string>
+    <string name="link">Tumpperitiedot</string>
     <string name="trivia_hint">Trivia Hint</string>
     <string name="title_android_trivia_question">Android Trivia (%1$d/%2$d)</string>
     <string name="title_about_trivia">About Trivia</string>

@@ -1,0 +1,14 @@
+
+# See stackoverflow thread on .gitignore files
+# https://stackoverflow.com/questions/16736856/what-should-be-in-my-gitignore-for-an-android-studio-project?page=1&tab=votes#tab-top
+
+/build 
+
+/.idea
+
+/*.iml
+
+local.properties
+
+
+

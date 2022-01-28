@@ -71,6 +71,6 @@
     <fragment
         android:id="@+id/linkFragment"
         android:name="com.example.android.navigation.LinkFragment"
-        android:label="fragment_link"
+        android:label="Tumpperitietoa"
         tools:layout="@layout/fragment_link" />
 </navigation>

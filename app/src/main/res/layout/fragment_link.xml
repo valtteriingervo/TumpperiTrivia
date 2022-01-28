@@ -7,12 +7,43 @@
     tools:context=".LinkFragment">
 
     <TextView
-        android:id="@+id/link_text"
-        android:layout_width="wrap_content"
+        android:id="@+id/text_tumpperitietoa"
+        android:layout_width="@dimen/tumpperitietoa_width"
         android:layout_height="wrap_content"
-        android:layout_marginStart="112dp"
-        android:layout_marginTop="212dp"
-        android:text="Tänne linkki jossa tumpperitietoa"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/tumpperitietoa"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/rulesImage2" />
+
+    <TextView
+        android:id="@+id/text_tumpperilinkki"
+        android:layout_width="@dimen/tumpperitietoa_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/tumpperitietoa_linkki"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_tumpperitietoa" />
+
+    <ImageView
+        android:id="@+id/rulesImage2"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/image_header_height"
+        android:layout_marginStart="@dimen/horizontal_margin"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="@dimen/horizontal_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/trivia_rules" />
 </androidx.constraintlayout.widget.ConstraintLayout>

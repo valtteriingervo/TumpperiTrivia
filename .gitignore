@@ -1,5 +1,5 @@
 
-# This is from a github
+# This is from a github repo
 # https://github.com/github/gitignore/blob/main/Android.gitignore
 
 # Gradle files
@@ -32,3 +32,4 @@ google-services.json
 
 # Android Profiling
 *.hprof
+.gradle/6.5/executionHistory/executionHistory.bin

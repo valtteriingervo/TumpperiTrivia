@@ -12,5 +12,6 @@
         android:title="@string/about" />
     <item
         android:id="@+id/linkFragment"
+        android:icon="@drawable/answer_sources_icon"
         android:title="@string/link" />
 </menu>

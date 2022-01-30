@@ -40,6 +40,9 @@
     <string name="fragment_title_label">Tumpperi trivia</string>
     <string name="fragment_gamewon_label">Voitit pelin!</string>
     <string name="fragment_gamelost_label">Hävisit pelin</string>
+    <string name="tumpperitietoa">Kyselyssä käytetyt oikeat vastaukset, kuten kalorimäärät ja aineosaluettelot, otettu
+    alla olevasta linkistä: </string>
+    <string name="tumpperitietoa_linkki"><a href="https://www.foodie.fi/entry/rainbow-lager-olut-4-3---tolkki-0-33-l/6438460026072">Foodie.fi</a></string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

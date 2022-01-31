@@ -31,7 +31,7 @@
     <string name="title_about_trivia">About Trivia</string>
     <string name="title_trivia_rules">Trivia Rules</string>
     <string name="share_success_text">Minä voitin #Tumpperitrivian %1$d/%2$d oikeilla kysymyksillä!</string>
-    <string name="submit_button">Submit</string>
+    <string name="submit_button">Tallenna</string>
     <string name="congratulations">Congratulations!</string>
     <string name="share">Share</string>
     <string name="sharing_not_available">Sharing Not Available</string>

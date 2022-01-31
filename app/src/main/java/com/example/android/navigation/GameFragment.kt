@@ -39,7 +39,7 @@ class GameFragment : Fragment() {
                     answers = listOf("115.5", "97.0", "126.5", "101.0")),
             Question(text = "Montako vaalea lager olut tölkkiä on yhdessä tumpperissa?",
                     answers = listOf("24", "12", "6", "18")),
-            Question(text = "Kuinka suuri pantti (sentteinä) on yhdessä vallea lagero olut 4.3 % tölkissä?",
+            Question(text = "Kuinka suuri pantti (sentteinä) on yhdessä vaalea lager olut 4.3 % tölkissä?",
                     answers = listOf("15", "10", "20", "Ei ole panttia")),
             Question(text = "Mikä on toiseksi runsain ainesosa vaaleassa lager 4.3 % oluessa?",
                     answers = listOf("ohramallas", "ohra", "humala", "vesi")),

@@ -8,7 +8,7 @@
         android:title="@string/rules" />
     <item
         android:id="@+id/aboutFragment"
-        android:icon="@drawable/about_android_trivia"
+        android:icon="@drawable/ic_baseline_info_24"
         android:title="@string/about" />
     <item
         android:id="@+id/linkFragment"

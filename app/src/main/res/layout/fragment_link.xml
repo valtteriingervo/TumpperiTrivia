@@ -14,9 +14,9 @@
         android:id="@+id/text_tumpperitietoa"
         android:layout_width="@dimen/tumpperitietoa_width"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="24dp"
         android:text="@string/tumpperitietoa"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,14 +51,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_tumpperi_trivia_sources" />
 
-    <Button
-        android:id="@+id/link_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="168dp"
-        android:layout_marginTop="36dp"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_tumpperilinkki" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

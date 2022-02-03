@@ -25,11 +25,12 @@ class LinkFragment : Fragment() {
         val binding = DataBindingUtil.inflate<FragmentLinkBinding>(inflater,
             R.layout.fragment_link,container,false)
 
-        // Set up the intent for
+        // Set up the intent for launching the desired link
         val foodieLink = Uri.parse("https://www.foodie.fi/entry/rainbow-lager-olut-4-3---tolkki-0-33-l/6438460026072")
         val webIntent = Intent(Intent.ACTION_VIEW, foodieLink)
 
-        // If the the user clicks the Foodie.fi text we send them to link destination
+        // If the the user clicks the 'Foodie.fi' text, we send them to link destination via
+        // internet browser application
         binding.textTumpperilinkki.setOnClickListener{
             try {
                 startActivity(webIntent)
@@ -39,7 +40,7 @@ class LinkFragment : Fragment() {
 
         }
 
-        // Ok if we use the binding object we need to return the binding.root at the end of OnCreateView
+        // Ok, if we use the binding object in Fragments we need to return the binding.root at the end of OnCreateView
         return binding.root
     }
 
